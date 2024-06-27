@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container-fluid {
+  padding: 0 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+} */
+
+.authentication {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 25%;
+
+}
+
+.column {
+  float: left;
+  /* width: 33.33%; */
+  width: 32%;
+  /* align-items: center;   */
+  /* display: flex; */
+  margin-left: 'auto';
+  margin-right: 'auto';
+  /* justify-content: center; */
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.selectedRow {
+  background-color: red;
+}
+.selectedRow:hover {
+  background-color: red;
+}
+.unselectedRow {
+  background-color: white;
+}
+
+.headerRow {
+  background-color: #EBEBEB;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.headerRowCheck{
+  background-color: #EBEBEB;
+  /* justify-content: center;
+  display: flex;
+  overflow:initial; */
+}
+
+.measurementsEdited {
+  color: #B96900;
+}
+
+.compoundsShared {
+  color: #0066CC;
 }
