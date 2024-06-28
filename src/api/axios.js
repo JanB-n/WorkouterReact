@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://workoutersql.azurewebsites.net'
+const BASE_URL = 'https://workoutersql.azurewebsites.net'
 // const BASE_URL = 'http://localhost:8088'
 
 export default axios.create({
